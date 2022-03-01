@@ -14,6 +14,19 @@ public class main {
 	
 	System.out.println("La suma normal es: " + Suma.suma_normal(a, b));
 	
+	while(true) {
+		System.out.println("Introduce un numero :)\n");
+		int c = sc.nextInt();
+		
+		System.out.println("La suma acumulada es: " + Resta.resta_acumulada(c));
+		System.out.println("Quiere salir? s/n :)\n");
+		
+		char op = sc.next().charAt(0);
+		
+		if(op == 's' || op == 'S') break;
+		
+	}
+	
 	sc.close();
 	
 	}

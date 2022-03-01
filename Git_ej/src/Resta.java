@@ -6,7 +6,7 @@ private static int acumulador = 0;
 		return numero1 - numero2;
 	}
 	
-	public static int suma_acumulada(int numero) {
+	public static int resta_acumulada(int numero) {
 		acumulador-= numero;
 		return acumulador;
 	}
