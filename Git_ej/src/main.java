@@ -1,4 +1,4 @@
-
+//Clase principal del programa
 import java.util.Scanner;
 
 public class main {
