@@ -1,6 +1,5 @@
 
 //Clase principal del programa
-//Test Github 23
 
 import java.util.Scanner;
 
