@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body style="background-color: rgb(250, 161, 128);">
+    <main>
+
+        <header style="text-align: left;">
+
+            <p style="font-family: Verdana, Geneva, Tahoma, sans-serif; font-size: 40px; font-weight: bold;">Play Basket <span><a href="Basket.html">
+                <img src="img/pelota_basket.png" style="text-align: left;"></a></span></p>
+
+        </header>
+
+        <br/>
+        <hr/>
+
+        <form action="procesarPeticion.jsp" method="get">
+            
+            <fieldset><legend>Datos personales:</legend>
+                
+                <label for="nombre">Nombre: </label>
+                
+                <input id="nombre" type="text" name="nombre"/>
+                <br />
+                <label for="edad">Edad: </label>
+                <input id="edad" type="text" name="edad" />
+                <br/>
+                
+                <label for="pass">Password: </label>
+                <input id="pass" type="password" name="pass" />
+                
+                <br/>
+                <input id="identificador" type="hidden" name="identificador" value="123"/>
+                <br/>
+                
+                <label for="estado_civil">Estado civil: </label>
+                <br />	
+                <input type="radio" name="estado_civil" value="S" />Soltero<br />	
+                <input type="radio" name="estado_civil" value="C" />Casado<br />	
+                <input type="radio" name="estado_civil" value="V" checked/>Viudo<br />	
+                <input type="radio" name="estado_civil" value="D" />Divorciado<br />	
+    
+                
+                <br/>
+                <label for="hobbies">Hobbies: </label>
+                <br />	
+                <input type="checkbox" name="hobbies" value="M" checked/>Música<br />	
+                <input type="checkbox" name="hobbies" value="L" checked/>Lectura<br />	
+                <input type="checkbox" name="hobbies" value="D" />Deportes<br />	
+                <input type="checkbox" name="hobbies" value="V" />Videojuegos<br />	
+                <br/>
+                
+                <label for="dia_nacimiento">Escoja el día en que nació: </label>
+                <select name="dia_nacimiento">
+                    <option value="MON">Lunes</option>
+                    <option value="TUE">Martes</option>
+                    <option value="WED" selected>Miércoles</option>
+                    <option value="THU">Jueves</option>
+                    <option value="FRI">Viernes</option>
+                </select>
+                <br />
+                
+                <br/>
+                <label for="observaciones">Observaciones: </label>
+                <br />	
+                
+                <textarea style="resize: none;" rows="5" cols="80" name="observaciones"></textarea>
+                 
+                <br/>
+                <br/>
+                <label for="terminos">Acepta los terminos de uso? </label>
+                <br/>	
+                He leido y acepto los terminos de uso <input type="checkbox" name="terminos" value="Y" />
+                <br/>	
+                
+                <br/>	
+                <input type="submit" value="Enviar datos" />
+                
+                <input type="reset" value="Limpiar formulario" />
+            </fieldset>
+        </form>
+    </main>
+    
+</body>
+</html>
