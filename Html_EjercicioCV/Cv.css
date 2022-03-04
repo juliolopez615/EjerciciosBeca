@@ -6,6 +6,9 @@ header {
     color: rgb(34, 32, 63);
     text-align: center;
 }
+h2{
+    text-align: center;
+}
 
 #grado {
     font-size: large;
@@ -13,10 +16,11 @@ header {
 
 div.container {
     margin: 80px;
+    resize: both;
     text-align: center;
 }
 div.columna1, div.columna2 {
-    display:inline-block;
+    display:inline-table;
     padding: 30px;    
 }
 div.columna1 {
@@ -28,4 +32,8 @@ div.columna2 {
     height: 800px;
     width: 600px;
     background-color: rgb(92, 161, 139); 
+}
+
+#conocimientos {
+    text-align: left;
 }
