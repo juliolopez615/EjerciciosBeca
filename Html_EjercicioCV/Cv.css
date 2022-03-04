@@ -9,7 +9,22 @@ header {
 h2{
     text-align: center;
 }
+.titulo{
+    text-align: left;
+}
+hr.line{
+    border: 0;
+    border-top: 3px solid rgb(114, 221, 185);
+    
+    
+    width: 30px;
+    margin: 0;
+      
+}
 
+#descripcionPersonal{
+    font-size: larger;
+}
 #grado {
     font-size: large;
 }
@@ -32,8 +47,9 @@ div.columna2 {
     height: 800px;
     width: 600px;
     background-color: rgb(92, 161, 139); 
+    padding-bottom: 67px;
 }
 
-#conocimientos {
+#conocimientos, #destrezas, #formacion, #datosContacto, #personal {
     text-align: left;
 }
