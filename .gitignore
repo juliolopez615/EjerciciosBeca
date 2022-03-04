@@ -51,9 +51,9 @@ local.properties
 .apt_generated_test/
 
 #For visual studio
-*.vscode
+
 .vscode/*
-!.vscode/settings.json
+#!.vscode/settings.json
 !.vscode/tasks.json
 !.vscode/launch.json
 !.vscode/extensions.json
