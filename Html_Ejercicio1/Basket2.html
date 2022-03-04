@@ -19,69 +19,65 @@
         <br/>
         <hr/>
 
-        <form action="procesarPeticion.jsp" method="get">
+        <form action="Basket.html">
             
-            <fieldset><legend>Datos personales:</legend>
+            <fieldset><legend>Datos de inscripción a la competicion</legend>
                 
                 <label for="nombre">Nombre: </label>
-                
-                <input id="nombre" type="text" name="nombre"/>
+                <input id="nombre" type="text" name="nombre" placeholder="Nombre" required/>
                 <br />
+                <br />
+
                 <label for="edad">Edad: </label>
-                <input id="edad" type="text" name="edad" />
+                <input type="date" name="edad"/>
+                <br/>
                 <br/>
                 
-                <label for="pass">Password: </label>
-                <input id="pass" type="password" name="pass" />
-                
+                <label for="email">email: </label>
+                <input type="email" name="email" placeholder="Escriba su email" required/>
+
+                <label for="telefono">telefono: </label>
+                <input type="tel" name="telefono" placeholder="Escriba su número"/>
                 <br/>
-                <input id="identificador" type="hidden" name="identificador" value="123"/>
-                <br/>
-                
-                <label for="estado_civil">Estado civil: </label>
-                <br />	
-                <input type="radio" name="estado_civil" value="S" />Soltero<br />	
-                <input type="radio" name="estado_civil" value="C" />Casado<br />	
-                <input type="radio" name="estado_civil" value="V" checked/>Viudo<br />	
-                <input type="radio" name="estado_civil" value="D" />Divorciado<br />	
-    
-                
-                <br/>
-                <label for="hobbies">Hobbies: </label>
-                <br />	
-                <input type="checkbox" name="hobbies" value="M" checked/>Música<br />	
-                <input type="checkbox" name="hobbies" value="L" checked/>Lectura<br />	
-                <input type="checkbox" name="hobbies" value="D" />Deportes<br />	
-                <input type="checkbox" name="hobbies" value="V" />Videojuegos<br />	
-                <br/>
-                
-                <label for="dia_nacimiento">Escoja el día en que nació: </label>
-                <select name="dia_nacimiento">
-                    <option value="MON">Lunes</option>
-                    <option value="TUE">Martes</option>
-                    <option value="WED" selected>Miércoles</option>
-                    <option value="THU">Jueves</option>
-                    <option value="FRI">Viernes</option>
-                </select>
                 <br />
-                
-                <br/>
-                <label for="observaciones">Observaciones: </label>
+
+                <label for="nivel">Nivel baloncesto: </label>
                 <br />	
-                
-                <textarea style="resize: none;" rows="5" cols="80" name="observaciones"></textarea>
-                 
+                <input type="radio" name="nivel" value="P" />principiante<br />	
+                <input type="radio" name="nivel" value="A" />amateur<br />	
+                <input type="radio" name="nivel" value="M" />nivel municipal<br />	
+                <input type="radio" name="nivel" value="N" />nivel nacional o superiores<br />	
+                <br/>
+
+                <label for="dias">Dias de preferencia a la hora de jugar: </label>
+                <br />	
+                <input type="checkbox" name="dias" value="S"/>Sábado
+                <input type="checkbox" name="dias" value="D"/>Domingo
+                <br/>
+                <br>
+
+                <label for="problemas">Alergias o problemas médicos: </label>
+                <br/>
+                <textarea style="resize: none;" rows="3" cols="50" name="problemas"></textarea>
+                <br/>
+
+                <br/>
+                <label for="numPersonas">Numero personas por equipos </label>
+                <input type="number" id="numPersonas" name="numPersonas" min="5" max="12" required>
                 <br/>
                 <br/>
-                <label for="terminos">Acepta los terminos de uso? </label>
-                <br/>	
-                He leido y acepto los terminos de uso <input type="checkbox" name="terminos" value="Y" />
-                <br/>	
+
+                <label for="terminos">Acepta los terminos de uso? </label>	
+                <br/>
+                <input type="checkbox" name="terminos" value="T" checked/>Acepto términos de uso<br/>
                 
-                <br/>	
+                <br/>
+                <input id="numCliente" type="hidden" name="numCliente" value="valor+1"/>
+                <br/>
+
                 <input type="submit" value="Enviar datos" />
                 
-                <input type="reset" value="Limpiar formulario" />
+                <input type="reset" value="Limpiar datos" />
             </fieldset>
         </form>
     </main>
