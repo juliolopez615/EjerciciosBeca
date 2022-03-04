@@ -42,11 +42,13 @@ div.columna1 {
     height: 800px;
     width: 600px;
     background-color:rgb(95, 177, 151);
+    border-radius: 10%;
 }
 div.columna2 {
     height: 800px;
     width: 600px;
     background-color: rgb(92, 161, 139); 
+    border-radius: 10%;
     padding-bottom: 67px;
 }
 
