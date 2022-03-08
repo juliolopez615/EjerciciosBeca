@@ -1,0 +1,38 @@
+/**{outline: 1px solid red}
+*{outline: 3px solid rgb(43, 255, 0)}
+*/
+
+body{
+    background-image: url('http://1.bp.blogspot.com/--L8qN1k73Hg/VXsWHhoUO3I/AAAAAAAAG0o/fSjcq4SefU8/s1600/basketball%2B6.png'); 
+    background-repeat:round;
+}
+
+main>header{
+    color: whitesmoke;
+    background-image: url('https://clipartcraft.com/images250_/transparent-textures-black-5.png');
+    padding:1%;
+}
+
+#pelota, #cabecera{
+    display: inline-block;
+}
+
+nav{
+    background-image: url('https://clipartcraft.com/images250_/transparent-textures-black-5.png');
+    padding-bottom: 1%;
+    border: 2px solid white;
+}
+
+aside{
+    height: 600px;
+    color: aqua;
+    float: right;
+}
+
+h3{
+    color: whitesmoke;
+    display: inline-block;
+    margin-left: 7%;
+    text-decoration: underline;
+    text-decoration-color: whitesmoke;
+}
