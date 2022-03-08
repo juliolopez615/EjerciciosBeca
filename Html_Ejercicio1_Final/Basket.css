@@ -11,6 +11,7 @@ main>header{
     color: whitesmoke;
     background-image: url('https://clipartcraft.com/images250_/transparent-textures-black-5.png');
     padding:1%;
+    width: 100%;
 }
 
 #pelota, #cabecera{
@@ -21,18 +22,47 @@ nav{
     background-image: url('https://clipartcraft.com/images250_/transparent-textures-black-5.png');
     padding-bottom: 1%;
     border: 2px solid white;
+    width: 100%;
+    position: fixed;
+    
 }
 
+
 aside{
+    outline: 2px solid white;
+    width: 20%;
+    margin-top: 5%;
     height: 600px;
     color: aqua;
     float: right;
 }
 
+.cont{
+    outline: 2px solid white;
+    width: 78%;
+    color: aquamarine;
+    font-size: larger;
+    height: 300px;
+    margin-top: 5%;
+    background-image: url('https://img.freepik.com/foto-gratis/textura-naranja_64049-250.jpg?t=st=1646762875~exp=1646763475~hmac=b1e99f22a3c45b8d0ea61101194801489e09268e64a8f7de51f470b060b77dd8&w=1060');
+}
+.as{
+    border: 1px solid white;
+}
+.cont, aside{
+    display: inline-table;
+}
 h3{
     color: whitesmoke;
     display: inline-block;
     margin-left: 7%;
     text-decoration: underline;
     text-decoration-color: whitesmoke;
+}
+
+.as{
+    margin-bottom: 20px;
+}
+.label{
+    color:white;
 }
