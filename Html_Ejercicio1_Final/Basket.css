@@ -1,5 +1,4 @@
 /**{outline: 1px solid red}
-*{outline: 3px solid rgb(43, 255, 0)}
 */
 
 body{
@@ -18,15 +17,23 @@ main>header{
     display: inline-block;
 }
 
-nav{
+.nav1{
     background-image: url('https://clipartcraft.com/images250_/transparent-textures-black-5.png');
     padding-bottom: 1%;
     border: 2px solid white;
     width: 100%;
     position: fixed;
+    z-index: 7;
     
 }
 
+.nav2{
+    background-image: url('https://clipartcraft.com/images250_/transparent-textures-black-5.png');
+    padding-bottom: 1%;
+    border: 2px solid white;
+    width: 100%;
+}
+*{outline: 2px solid red}
 
 aside{
     outline: 2px solid white;
@@ -35,9 +42,11 @@ aside{
     height: 600px;
     color: aqua;
     float: right;
+    margin-bottom: 5%;
 }
 
 .cont{
+    z-index: 2;
     outline: 2px solid white;
     width: 78%;
     color: aquamarine;
@@ -65,4 +74,43 @@ h3{
 }
 .label{
     color:white;
+}
+
+.coluumn{
+    display:inline-block;
+    width: 40%;
+    margin-right: 4%;
+    margin-top: 2%;
+    margin-left: 2%;
+    border: 5px solid black;
+    color:black;
+}
+
+.imgC{
+    margin-left: 7%;
+    margin-top: 3%;
+    width: 500px;
+    border: 3px solid white;
+}
+
+.artic{
+    text-align: center;
+}
+form{
+    background-color:ghostwhite;
+    color: black;
+    margin: 5%;
+    font-size: larger;
+    font-family:Arial, Helvetica, sans-serif;
+}
+
+footer{
+    position: absolute;
+    margin-top: 15%;
+    width:100%
+}
+.foot{
+    margin-top: 5%;
+    height: 100%;
+    width: 100%;
 }
