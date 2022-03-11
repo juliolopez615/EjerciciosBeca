@@ -94,7 +94,7 @@ div.columna2 {
 
 /*    Media Queries   */
 
-@media screen and (max-width: 1550px){
+@media screen and (max-width: 1500px){
     section{
         width:98%;
     }
@@ -104,10 +104,7 @@ div.columna2 {
     div.columna1{
         padding-bottom: 145px;
     }
-    body{
-        background-image: none;
-        background-color: #4a529e;
-    }
+    
     .fotoCv{
         left: 25%;
     }
