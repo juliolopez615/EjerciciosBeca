@@ -75,7 +75,7 @@ div.columna1 {
     border: 2px solid #0c3d5e;
     height: 800px;
     width: 600px;
-    background-image: url('https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Fimg.freepik.com%2Ffoto-gratis%2Ftextura-fondo-degradado-azul-acuarela-manchas-sobre-papel_145343-478.jpg%3Fsize%3D626%26ext%3Djpg&f=1&nofb=1'); 
+    background-color: rgb(189, 211, 204);
     border-radius: 10%;
     padding-bottom: 85px;
 }
@@ -83,8 +83,7 @@ div.columna2 {
     border: 2px solid #0c3d5e;
     height: 800px;
     width: 600px;
-    background-color: rgb(92, 161, 139);
-    background-image: url('https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Fimg.freepik.com%2Ffoto-gratis%2Ftextura-fondo-degradado-azul-acuarela-manchas-sobre-papel_145343-478.jpg%3Fsize%3D626%26ext%3Djpg&f=1&nofb=1'); 
+    background-color: rgb(189, 211, 204);
     border-radius: 10%;
 }
 
@@ -141,11 +140,18 @@ div.columna2 {
     body{
         background-color: #b3660f;
     }
+    header{
+        margin-left: 30%;
+        width: 300px;
+    }
 
     div.columna1, div.columna2{
-        width: 400px;
+        width: 300px;
         margin-bottom: 10px;
         background-image: none;
-        background-color:#145181 ;
+        background-color: rgb(189, 211, 204);
+        margin-right: 40%;
+        padding-bottom: 0%;
+
     }
 }
